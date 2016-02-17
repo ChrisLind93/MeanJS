@@ -1,5 +1,5 @@
-myFunction();
+hoisted();
 
-function myFunction(){
-    console.log("I am being called before declared in the code");
+function hoisted() {
+    console.log("Called before being declared in the code");
 }
